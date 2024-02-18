@@ -1,0 +1,44 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.navbar{
+    text-align:right;
+    background-color :bisque;
+}
+
+    /* Lab 5 - Dropdown Styling */
+    /* Custom Dropdown Style */
+    .navbar .dropdown-toggle {
+        color: white;
+        background-color: #007bff; /* Example color */
+        border-color: #007bff; /* Example border */
+    }
+
+        /* Change color on hover */
+        .navbar .dropdown-toggle:hover {
+            color: #007bff;
+            background-color: white;
+        }
+/*.btn{
+    color:black;
+    background-color:cadetblue;
+   }*/
